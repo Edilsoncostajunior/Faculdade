@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO supply a title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+    /* 7) Desenvolva uma página HTML capaz de efetuar a soma de todos os números ímpares
+que são múltiplos de três e que se encontram dentro dos números inteiros (separados por
+vírgula) de um dado campo de entrada, a partir do click de um botão. */
+
+function ok(){
+    var numeros = document.getElementById("txtNumeros").value;
+    var total = 0;
+    numeros = numeros.split(",");
+
+    for (var i = 0; i < numeros.length; i++){
+        if (Number(numeros[i])){
+            numeros[i] = Number(numeros[i])
+            };
+            
+        }
+            
+    for(i=0;i<numeros.length;i++){
+        if(numeros[i]%3 == 0 && numeros[i]%2 != 0){
+            total += parseInt(numeros[i]);
+        }
+    }
+    document.write("Total: "+total+"<br>");
+}
+</script>
+
+</head>
+
+<body>
+Números<input type="text" id="txtNumeros">
+
+<input type="button" value="click"
+
+onclick="ok()">
+</body>
+</html>

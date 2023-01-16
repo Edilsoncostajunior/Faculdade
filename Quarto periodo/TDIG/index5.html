@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lista</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+/* 10) Desenvolva uma página HTML capaz de inverter os valores (ex:[1, 5, 7, 2] fica [2, 7, 5,
+1]) na lista de inteiros (separados por vírgula) de um dado campo de entrada, a partir do click
+de um botão. */
+    
+
+    function ok(){
+        let numeros = document.getElementById("Numeros").value;
+        numeros = numeros.split(',')
+        
+        for (var i = 0; i < numeros.length; i++){
+            if (Number(numeros[i])){
+                numeros[i] = Number(numeros[i])
+            } 
+        }
+        numeros.reverse()
+        
+        
+        console.log(numeros)
+        document.write(`Array de Inteiros ordenado:  [${numeros}]`);
+    }
+    
+
+</script>
+
+</head>
+<body>
+Inverter valores separados por vírgula<input type="text" id="Numeros">
+
+<input type="button" id="button" onclick="ok()" value="click">
+
+</body>
+</html>

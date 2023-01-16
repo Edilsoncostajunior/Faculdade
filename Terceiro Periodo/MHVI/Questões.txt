@@ -1,0 +1,14 @@
+Questão 1:
+    Herança em POO é a habilidade das classes se relacionarem e as descendentes herdarem características e comportamentos da classe progenitora.
+
+Questão 2:
+    herança simples: cada classe pode ter apenas uma superclasse, entretanto, uma superclasse pode ter várias descendentes.
+    herança multipla: uma classe pode herdar características e comportamentos de mais de uma superclasse.
+
+questão 4:
+    polimorfismo vem da palavra polimorfo, essa características permite que diferentes objetos respondam a uma mesma mensagem de formas diferentes.
+
+Questão 5:
+    polimorfismo de sobreposição - cria uma sobreposição do método de classe mãe com o método da classe descendente.
+    polimorfismo de inclusão - usa a capacidade de substituição da herança de uma classe mãe por qualquer classe descendente, para permitir um comportamento polimorfico nos métodos que usam a classe mãe.
+

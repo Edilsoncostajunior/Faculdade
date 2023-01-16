@@ -1,0 +1,15 @@
+Questão 1:
+    Encapsulamento é a habilidade de ocultar dados de um código, para que os mesmos não sejam acessados facilmente em outros arquivos, pastas e etc.
+    A função do encapsulamento é de proteger os dados do mundo exterior.
+    A aplicação do encapsulamento é feita através da alteração dos modificadores de acesso aos atributos e métodos.
+
+Questão 2:
+    public = os atributos e métodos podem ser acessados em qualquer parte da aplicação, seja em outros pacotes, classes e etc.
+    private = o acesso aos atributos e métodos fica restrito a ser acessado na propria classe.
+    protected = os atributos e métodos somente não podem ser acessados em outros pacotes.
+    default = os atributos e métodos não podem ser acessados em outros pacotes e não são suscetíveis a herança.
+
+Questão 4:
+    Composição é um mecanismo de reaproveitamento de classes utilizado pela POO para aumentar a produtividade no desenvolvimento de softwares.
+    vantagens de usar Composição: reaproveitamento do código, produtividade, facilidade de manutenção e qualidade no desenvolvimento.
+    
