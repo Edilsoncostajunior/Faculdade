@@ -1,6 +1,6 @@
+const modoDev = process.env.NODE_ENV !== 'production'
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const modoDev = process.env.NODE_ENV !== 'production'
 const OptmizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const  TerserPlugin  = require('terser-webpack-plugin')
 
