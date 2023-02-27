@@ -16,4 +16,3 @@ ReactDOM.render(
         </Pai >
     </div>
     , document.getElementById('root'))
-
