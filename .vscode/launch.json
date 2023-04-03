@@ -2,6 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "HtmlAnalyzer",
+      "request": "launch",
+      "mainClass": "HtmlAnalyzer",
+      "projectName": "Faculdade_3d273f28"
+    },
+    {
+      "type": "java",
+      "name": "DeepestTextFinder3",
+      "request": "launch",
+      "mainClass": "DeepestTextFinder3",
+      "projectName": "Faculdade_3d273f28"
+    },
+    {
+      "type": "java",
+      "name": "DeepestTextFinder2",
+      "request": "launch",
+      "mainClass": "DeepestTextFinder2",
+      "projectName": "Faculdade_3d273f28"
+    },
+    {
+      "type": "java",
+      "name": "DeepestTextFinder",
+      "request": "launch",
+      "mainClass": "DeepestTextFinder",
+      "projectName": "Faculdade_3d273f28"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

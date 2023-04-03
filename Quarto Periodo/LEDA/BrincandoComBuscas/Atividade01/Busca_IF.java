@@ -1,4 +1,4 @@
-package Atividade02;
+package BrincandoComBuscas.Atividade01;
 
 public interface Busca_IF {
 	

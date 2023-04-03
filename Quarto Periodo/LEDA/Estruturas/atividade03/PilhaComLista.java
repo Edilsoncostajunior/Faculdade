@@ -1,4 +1,4 @@
-package atividade03;
+package Estruturas.atividade03;
 
 public class PilhaComLista implements Pilha_IF {
 

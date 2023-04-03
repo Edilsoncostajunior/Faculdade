@@ -1,9 +1,9 @@
-package atividade03;
+package Estruturas.atividade03;
 
+import static org.junit.Assert.assertFalse;
 
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class Test0_Fila {
 	

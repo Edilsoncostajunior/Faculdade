@@ -1,4 +1,4 @@
-package atividade03;
+package Estruturas.atividade03;
 
 /*
  * Interface para implementa��o da classe "ListaEncadeada"

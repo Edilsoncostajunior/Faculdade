@@ -1,4 +1,4 @@
-package atividade03;
+package Estruturas.atividade03;
 
 import org.junit.Before;
 import org.junit.Test;

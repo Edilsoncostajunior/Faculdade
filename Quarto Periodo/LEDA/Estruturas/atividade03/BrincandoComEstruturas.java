@@ -1,4 +1,4 @@
-package atividade03;
+package Estruturas.atividade03;
 
 public class BrincandoComEstruturas {
 
@@ -20,9 +20,6 @@ public class BrincandoComEstruturas {
 		System.out.println(minhaLista.toArray()[0] == 300);
 		System.out.println(minhaLista.toArray()[1] == 200);
 		System.out.println(minhaLista.toArray()[2] == 100);
-		
-
-		System.out.println();
 		minhaLista.remove(100);
 		System.out.println(minhaLista.size() == 2);
 		System.out.println(minhaLista.toArray()[0] == 300);
