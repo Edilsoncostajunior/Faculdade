@@ -1,0 +1,38 @@
+Questão 1:
+    Objeto: Smart Tv
+
+    atributos: Marca - Samsung, Tamanho - 40 polegadas, resolução - UHD.
+
+    Métodos: acessar aplicativos de streaming, ligar, desligar e etc.
+
+Questão 2:
+    Objetos são utilizados para representar endidades do mundo real ou computacional, ja as classes, funcionam no fundo do programa como um molde para a criação de um dado objeto.
+
+Questão 3:
+    os atributos são as caracteristicas do objeto, que necessitam possuir um tipo(boolean, float, int e etc ), ja os métodos são os meios de acessar e modificar essas caracteristicas.
+
+Questão 4:
+    Classes são abstratas e definem as caracteristicas dos Objetos, ja os objetos, são como as materializações das classes, com todas as caracteristicas definidas pela classe a que ele "pertence".
+
+
+Questão 7:
+    nome: computador.
+    função: trabalhar, estudar, jogar, comunicação, e etc.
+
+    nome: ventilador.
+    função: esfriar o quarto atraves da movimentação do ar.
+
+    nome: escrivaninha.
+    função: servir de suporte para o computador e outros objetos.
+
+    nome: mochila.
+    função: carregar itens necessarios no dia a dia e entre outros.
+
+    nome: armario 
+    função: guardar perfumes, roupas, sapatos e etc.
+
+Questão 8:
+    A troca de mensagens entre os objetos ocorre a partir da chamada de métodos de um objeto por um outro objeto, daí surgem os relacionamentos entre os objetos, que podem ser de um pra um, um pra muitos e etc.
+
+Questão 9:
+    Os sistemas OO são construidos a partir de classes que definem objetos necessarios para a implementação do programa. As classes definem as caracteristicas e métodos dos respectivos objetos. 

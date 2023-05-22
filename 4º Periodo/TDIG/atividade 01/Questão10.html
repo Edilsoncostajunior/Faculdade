@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Questão 10</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+
+        function inverterValores() {
+            let numeros = document.getElementById("Numeros").value;
+            numeros = numeros.split(',')
+            let numeros2 = numeros.map((x) => x);
+             
+
+            for (var i = 0; i < numeros.length; i++) {
+                if (Number(numeros[i])) {
+                    numeros[i] = Number(numeros[i])
+                }
+            }
+            numeros.reverse()
+
+            document.write(`Ordem normal:  [${numeros2}] <br>`);
+            document.write(`Ordem invertida:  [${numeros}]`);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    Insira uma ordem que deseja inverter<input type="text" id="Numeros">
+
+    <input type="button" id="button" onclick="inverterValores()" value="click">
+
+</body>
+
+</html>

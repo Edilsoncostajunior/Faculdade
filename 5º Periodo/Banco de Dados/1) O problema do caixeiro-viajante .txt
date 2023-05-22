@@ -1,0 +1,5 @@
+1) O problema do caixeiro-viajante pode ser interpretado como um problema de minimização, em que o objetivo é encontrar a rota mais curta possível ao sair de um vértice e visitar todos os outros vértices antes de retornar ao vértice inicial.
+
+2)Uma função de corte é uma técnica que reduz o tamanho de um problema ao eliminar partes do espaço de solução que não contêm soluções ótimas. Para o problema do caixeiro viajante, uma ideia de função de corte é usar um limite inferior no comprimento de qualquer rota que visite todas as cidades. Por exemplo, podemos utilizar o comprimento de uma árvore geradora mínima que conecta todas as cidades como um limite inferior, pois qualquer rota deve ter pelo menos esse comprimento. Assim, qualquer rota parcial com um comprimento maior ou igual ao limite inferior pode ser descartada, pois não levará a uma solução ótimas. Essa abordagem reduz o número de rotas a serem examinadas.
+
+3)A função objetiva é uma fórmula matemática que define o objetivo a ser alcançado em um problema. No caso do problema do caixeiro-viajante, o objetivo é encontrar a rota mais curta que passe por cada cidade uma única vez e volte à cidade inicial.
